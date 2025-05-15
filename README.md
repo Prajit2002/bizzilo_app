@@ -30,52 +30,34 @@ A Flutter-based responsive e-commerce application deployed on Firebase Hosting.
    git clone https://github.com/Prajit2002/bizzilo_app.git
    cd bizzilo_app
 
-2.Get Flutter packages
-
-bash
-Copy
-Edit
-flutter pub get
+2. Get Flutter packages
+    flutter pub get
 
 3.Run the app (for mobile)
+   flutter run 
+   for build : flutter build apk
 
-bash
-Copy
-Edit
-flutter run
+4. Run the app (for windows)
+   flutter run (choose windows in flutter)
+   for build : flutter build windows
 
-4.For Flutter web, build the project:
+5.For Flutter web, build the project
+    flutter build web
 
-bash
-Copy
-Edit
-flutter build web
-
+    
 
 Firebase Deployment
-
 The project is deployed on Firebase Hosting.
 
 Hosting URL: https://bizzilo.web.app
 
-Live Web App URL: https://bizzilo.web.app
-
-
 To deploy updates:
 
-Build the web version
+1.Build the web version
+  flutter build web
 
-bash
-Copy
-Edit
-flutter build web
-Deploy to Firebase
-
-bash
-Copy
-Edit
-firebase deploy
-
+2.Deploy to Firebase
+  firebase deploy
 
 
 Folder Structure
@@ -86,5 +68,6 @@ build/web/ — Compiled web output after build
 assets/ — Images, videos, and other static assets
 
 
-Contact
-For any queries or issues, feel free to open an issue or contact me.
+
+Just open your `README.md` file in an editor, replace the content with this text, save, and commit!
+
